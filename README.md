@@ -1,6 +1,12 @@
 vestalia
 =========
 
+[![Build Status](https://img.shields.io/github/workflow/status/HowIChrgeLazer/vestalia/Rust)](https://github.com/HowIChrgeLazer/vestalia/actions)
+[![Crates.io](https://img.shields.io/crates/v/vestalia.svg)](https://crates.io/crates/vestalia)
+[![Documentation](https://docs.rs/vestalia/badge.svg)](https://docs.rs/vestalia)
+[![Rust](https://img.shields.io/badge/rust-1.60%2B-blue.svg?maxAge=3600)](https://github.com/HowIChrgeLazer/vestalia)
+
+
 This crate is an async wrapper for the Vestaboard API. It is a third-party developed crate
 and has no relation to Vestaboard, Inc.
 
