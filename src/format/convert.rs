@@ -70,17 +70,3 @@ pub fn char_to_int(character: char) -> i32 {
         _ => 0,
     }
 }
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn test_valid_vestaboard_char() {
-        let result = crate::format::convert::char_to_int('f');
-        assert_eq!(result, 6);
-    }
-    #[test]
-    fn test_invalid_vestaboard_char() {
-        let result = crate::format::convert::char_to_int('*');
-        assert_eq!(result, 0);
-    }
-}
