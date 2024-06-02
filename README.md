@@ -1,8 +1,8 @@
 vestalia
 =========
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/mjljr/vestalia/rust.yml?branch=dev)](https://github.com/mjljr/vestalia/actions)
-[![codecov](https://codecov.io/github/mjljr/vestalia/branch/dev/graph/badge.svg?token=JFF93NWB3C)](https://codecov.io/github/mjljr/vestalia)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/mjljr/vestalia/rust.yml?branch=main)](https://github.com/mjljr/vestalia/actions)
+[![codecov](https://codecov.io/github/mjljr/vestalia/graph/badge.svg?token=JFF93NWB3C)](https://codecov.io/github/mjljr/vestalia)
 [![Crates.io](https://img.shields.io/crates/v/vestalia.svg)](https://crates.io/crates/vestalia)
 [![Documentation](https://docs.rs/vestalia/badge.svg)](https://docs.rs/vestalia)
 
@@ -24,7 +24,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-vestalia = "0.1.0"
+vestalia = "0.1.1"
 ```
 
 Then:
