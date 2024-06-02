@@ -37,7 +37,7 @@ pub struct Post {
 pub struct Message {
     pub id: String,
     pub text: Option<String>,
-    pub created: String,
+    pub created: i64,
 }
 
 /// Generates a Vestaboard instance specific to an
@@ -222,7 +222,7 @@ mod tests {
             "message": {
                 "id":"12345678-abcd-0123-aaaa-bbbbccccdddd",
                 "text":"Test!",
-                "created":"1650168530618"
+                "created":1650168530618
             }
         }"#;
     #[tokio::test]
@@ -244,7 +244,7 @@ mod tests {
             message: Message {
                 id: "12345678-abcd-0123-aaaa-bbbbccccdddd".to_string(),
                 text: Some("Test!".to_string()),
-                created: "1650168530618".to_string(),
+                created: 1650168530618,
             },
         };
         let client = Vestaboard::new("test".to_string(), "test_secret".to_string());
@@ -266,7 +266,7 @@ mod tests {
             message: Message {
                 id: "12345678-abcd-0123-aaaa-bbbbccccdddd".to_string(),
                 text: Some("Test!".to_string()),
-                created: "1650168530618".to_string(),
+                created: 1650168530618,
             },
         };
         let client = Vestaboard::new("test".to_string(), "test_secret".to_string())

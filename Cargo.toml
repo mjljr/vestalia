@@ -1,6 +1,6 @@
 [package]
 name = "vestalia"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Michael Linback Jr <michael@bitnexus.io>"]
 edition = "2021"
 description = "Vestaboard API wrapper"
@@ -13,10 +13,10 @@ categories = ["api-bindings"]
 exclude = [".gitignore"]
 
 [dependencies]
-regex = "1.5.5"
+regex = "1.10.4"
 reqwest = { version = "0.11.10", features = ["json"] }
 serde = { version = "1.0.136", features = ["derive"] }
-tokio = { version = "1.17.0", features = ["macros"] }
+tokio = { version = "1.38.0", features = ["macros"] }
 
 [dev-dependencies]
 mockito = "0.31.0"
